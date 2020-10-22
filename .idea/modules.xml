@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/vehical-data-analysis-server/vehical-data-analysis-server.iml" filepath="$PROJECT_DIR$/vehical-data-analysis-server/vehical-data-analysis-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vehical-data-analysis-client/vehicaldataanalysisclient.iml" filepath="$PROJECT_DIR$/vehical-data-analysis-client/vehicaldataanalysisclient.iml" />
+    </modules>
+  </component>
+</project>
