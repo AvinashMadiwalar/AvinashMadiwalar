@@ -8,51 +8,51 @@ import java.util.Date;
 @Document
 public class Acceleration {
     @Id
-    private Long id;
-    private Long obdData_id;
-    private Long trip_id;
-    private Long obdPid;
-    private Long data;
+    private long id;
+    private int obdData_id;
+    private int trip_id;
+    private String obdPid;
+    private int data;
     private Date timestamp;
 
 
-    public Long getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(long id) {
         this.id = id;
     }
 
-    public Long getObdData_id() {
+    public int getObdData_id() {
         return obdData_id;
     }
 
-    public void setObdData_id(Long obdData_id) {
+    public void setObdData_id(int obdData_id) {
         this.obdData_id = obdData_id;
     }
 
-    public Long getTrip_id() {
+    public int getTrip_id() {
         return trip_id;
     }
 
-    public void setTrip_id(Long trip_id) {
+    public void setTrip_id(int trip_id) {
         this.trip_id = trip_id;
     }
 
-    public Long getObdPid() {
+    public String getObdPid() {
         return obdPid;
     }
 
-    public void setObdPid(Long obdPid) {
+    public void setObdPid(String obdPid) {
         this.obdPid = obdPid;
     }
 
-    public Long getData() {
+    public int getData() {
         return data;
     }
 
-    public void setData(Long data) {
+    public void setData(int data) {
         this.data = data;
     }
 
@@ -61,6 +61,15 @@ public class Acceleration {
     }
 
     public void setTimestamp(Date timestamp) {
+        this.timestamp = timestamp;
+    }
+
+    public Acceleration(long id, int obdData_id, int trip_id, String obdPid, int data, Date timestamp) {
+        this.id = id;
+        this.obdData_id = obdData_id;
+        this.trip_id = trip_id;
+        this.obdPid = obdPid;
+        this.data = data;
         this.timestamp = timestamp;
     }
 }
