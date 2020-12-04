@@ -1,0 +1,9 @@
+application:
+    name: resource
+security:
+  oauth2:
+    resource:
+      token-info-uri: http://localhost:8100/oauth/check_token
+    client:
+      client-id: parking
+      client-secret: password 
