@@ -2,12 +2,14 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="vehicaldataanalysisclient" />
         <module name="vehical-data-analysis-server" />
+        <module name="vehical-data-analysis-client" />
+        <module name="vehicaldataanalysisclient" />
       </profile>
     </annotationProcessing>
   </component>

@@ -7,7 +7,16 @@
     <expand>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
     <select>
@@ -19,42 +28,114 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d93498a-689e-4610-acee-f7a9a58c636a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehical-data-analysis-server/src/main/java/com/msg/vehilcedataanalysis/configuration/AuthorizationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehical-data-analysis-server/src/main/java/com/msg/vehilcedataanalysis/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehical-data-analysis-server/src/main/java/com/msg/vehilcedataanalysis/dto/AuthorizationDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehical-data-analysis-server/src/main/java/com/msg/vehilcedataanalysis/entity/AuthorizationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehical-data-analysis-server/src/main/java/com/msg/vehilcedataanalysis/service/AuthorizationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehical-data-analysis-server/src/main/java/com/msg/vehilcedataanalysis/service/AuthorizationServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehical-data-analysis-client/vehicaldataanalysisclient.iml" beforeDir="false" afterPath="$PROJECT_DIR$/vehical-data-analysis-client/vehicaldataanalysisclient.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehical-data-analysis-server/src/test/java/vehicaldataanalysisserver/vehicaldataanalysisserver/VehicalDataAnalysisServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehical-data-analysis-server/src/test/java/vehicaldataanalysisserver/vehicaldataanalysisserver/VehicalDataAnalysisServerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vehical-data-analysis-client/src/main/webApp/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vehical-data-analysis-client/src/main/webApp/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vehical-data-analysis-server/src/main/java/vehicaldataanalysisserver/vehicaldataanalysisserver/VehicalDataAnalysisServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehical-data-analysis-server/src/main/java/com/msg/vehilcedataanalysis/VehicalDataAnalysisServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vehical-data-analysis-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vehical-data-analysis-server/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="PATH_TO_GIT" value="C:\Users\vyasb\Downloads\Git\bin\git.exe" />
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="PATH_TO_GIT" value="C:\Users\rr\AppData\Local\Programs\Git\bin\git.exe" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="107" />
-    <option name="y" value="142" />
-    <option name="width" value="1555" />
-    <option name="height" value="840" />
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1ksVkAsHtswoU911ABy0nR8Qc5F" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../authentication-service" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="vehicaldataanalysisserver.vehicaldataanalysisserver" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.VehicalDataAnalysisServerApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests (webApp)" type="JavaScriptTestRunnerKarma">
+      <config-file value="$PROJECT_DIR$/vehical-data-analysis-client/src/main/webApp/karma.conf.js" />
+      <karma-package-dir value="" />
+      <working-directory value="$PROJECT_DIR$/vehical-data-analysis-client/src/main/webApp" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="E2E Tests (webApp)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/vehical-data-analysis-client/src/main/webApp/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-package value="" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application (webApp)" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
     <configuration name="VehicalDataAnalysisServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="vehical-data-analysis-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="vehicaldataanalysisserver.vehicaldataanalysisserver.VehicalDataAnalysisServerApplication" />
@@ -62,7 +143,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Angular CLI Server (webApp)" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/vehical-data-analysis-client/src/main/webApp/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -74,11 +166,21 @@
       <option name="presentableId" value="Default" />
       <updated>1603360274434</updated>
       <workItem from="1603360279010" duration="2368000" />
+      <workItem from="1606489435710" duration="1124000" />
+      <workItem from="1606714941194" duration="93000" />
+      <workItem from="1607079069322" duration="7253000" />
+      <workItem from="1607316636767" duration="624000" />
+      <workItem from="1607329322209" duration="1220000" />
+      <workItem from="1607511532478" duration="22477000" />
+      <workItem from="1607607454680" duration="2939000" />
+      <workItem from="1607611599581" duration="4111000" />
+      <workItem from="1607686330924" duration="2915000" />
+      <workItem from="1607842738940" duration="28909000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -91,22 +193,6 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$" />
