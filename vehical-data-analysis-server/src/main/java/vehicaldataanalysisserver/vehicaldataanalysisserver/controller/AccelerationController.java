@@ -1,7 +1,5 @@
 package vehicaldataanalysisserver.vehicaldataanalysisserver.controller;
 
-
-import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import vehicaldataanalysisserver.vehicaldataanalysisserver.dto.AccelerationDTO;
@@ -18,9 +16,6 @@ public class AccelerationController {
 
     @Autowired
     AccelerationService accelerationService;
-
-    @Autowired
-    private ModelMapper modelMapper;
 
     @GetMapping(value = "/getParameters", produces = "application/json")
     public List<AccelerationDTO> getParametersByPid(@RequestParam("pid") String pid) throws Exception {
