@@ -26,7 +26,7 @@ public class AuthorizationServiceImpl implements AuthorizationService {
         HttpEntity<String> request =
                 new HttpEntity<>(authBody, createHeader());
         ResponseEntity<AuthorizationConfig> authorizationResponse = restTemplate.postForEntity(env.getAuthorizationUrl(), request, AuthorizationConfig.class);
-        return convertToDto(Objects.requireNonNull(authorizationResponse.getBody()));
+        return AuthorizationDTO.convertToDto(Objects.requireNonNull(authorizationResponse.getBody()));
     }
 
     private HttpHeaders createHeader() {
@@ -36,13 +36,5 @@ public class AuthorizationServiceImpl implements AuthorizationService {
             set("Authorization", authHeader);
             setContentType(MediaType.APPLICATION_FORM_URLENCODED);
         }};
-    }
-
-    private AuthorizationDTO convertToDto(AuthorizationConfig auth) {
-        AuthorizationDTO authorizationDTO = new AuthorizationDTO();
-        authorizationDTO.setAccessToken(auth.getAccess_token());
-        authorizationDTO.setTokenType(auth.getToken_type());
-        authorizationDTO.setExpiresIn(auth.getExpires_in());
-        return authorizationDTO;
     }
 }

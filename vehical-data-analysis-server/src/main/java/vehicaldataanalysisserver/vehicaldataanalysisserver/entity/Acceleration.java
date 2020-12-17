@@ -1,14 +1,15 @@
-package com.vehicle.data.document;
+package vehicaldataanalysisserver.vehicaldataanalysisserver.entity;
 
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import javax.persistence.Id;
+import java.math.BigInteger;
 import java.util.Date;
 
 @Document
 public class Acceleration {
     @Id
-    private long id;
+    private BigInteger _id;
     private int obdData_id;
     private int trip_id;
     private String obdPid;
@@ -16,12 +17,12 @@ public class Acceleration {
     private Date timestamp;
 
 
-    public long getId() {
-        return id;
+    public BigInteger get_id() {
+        return _id;
     }
 
-    public void setId(long id) {
-        this.id = id;
+    public void set_id(BigInteger _id) {
+        this._id = _id;
     }
 
     public int getObdData_id() {
@@ -64,8 +65,8 @@ public class Acceleration {
         this.timestamp = timestamp;
     }
 
-    public Acceleration(long id, int obdData_id, int trip_id, String obdPid, int data, Date timestamp) {
-        this.id = id;
+    public Acceleration(BigInteger _id, int obdData_id, int trip_id, String obdPid, int data, Date timestamp) {
+        this._id = _id;
         this.obdData_id = obdData_id;
         this.trip_id = trip_id;
         this.obdPid = obdPid;
