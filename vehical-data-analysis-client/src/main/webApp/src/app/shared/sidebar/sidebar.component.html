@@ -1,0 +1,15 @@
+<div class="logo">
+	<span class="simple-text logo-normal">
+		Vehicle Analysis
+	</span>
+</div>
+<div class="sidebar-wrapper">
+	<ul class="nav">
+		<li *ngFor="let menuItem of menuItems" class="{{ menuItem.class }} nav-item">
+			<a [routerLink]="[menuItem.path]">
+				<i class="tim-icons  {{ menuItem.icon }}"></i>
+				<p>{{ menuItem.title }}</p>
+			</a>
+		</li>
+	</ul>
+</div>

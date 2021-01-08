@@ -1,0 +1,26 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+	selector: 'shared-navbar',
+	templateUrl: './navbar.component.html',
+	styleUrls: ['./navbar.component.css'],
+})
+export class NavbarComponent implements OnInit {
+	isCollapsed = true;
+	closeResult: string;
+	private sidebarVisible: boolean;
+
+	constructor() {
+		this.sidebarVisible = false;
+	}
+
+	ngOnInit() {}
+
+	collapse() {}
+
+	sidebarClose() {}
+
+	sidebarToggle() {}
+
+	open(content) {}
+}
